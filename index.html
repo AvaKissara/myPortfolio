@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DevJane Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+    
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/logo2.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Mes Compétences</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Mes Projets</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+            Bienvenue !<strong>Lila Badi</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Web Développeuse Junior</p>
+            <img src="images/profile.jpeg" alt="Une photo de profile" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Mes Compétences</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>DEVELOPPEMENT</h3>
+                    <br>
+                    <div class="icons">
+                        <div class="tooltip">
+                            <img src=./images/icons8-html-5-48.png><span class="tooltiptext">HTML</span>
+                        </div>
+                        <div class="tooltip">
+                            <img src=./images/icons8-css3-48.png><span class="tooltiptext">CSS</span>
+                        </div> 
+                        <div class="tooltip">
+                            <img src=./images/icons8-javascript-48.png><span class="tooltiptext">Javascript</span>
+                        </div>
+                        <div class="tooltip"> 
+                            <img src=./images/icons8-logo-php-40.png width="50px"><span class="tooltiptext">PHP</span>
+                        </div>
+                        <div class="tooltip"> 
+                            <img src=./images/icons8-logo-de-mysql-96.png width="55px"><span class="tooltiptext">MySQL</span>
+                        </div>
+                        <div class="tooltip"> 
+                            <img src=./images/icons8-jquery-50.png><span class="tooltiptext">JQuery</span>
+                        </div>
+                        <div class="tooltip"> 
+                            <img src=./images/icons8-bootstrap-48.png><span class="tooltiptext">Bootstrap</span>
+                        </div>
+                        <div class="tooltip"> 
+                            <img src=./images/ajax_.png width="55px"><span class="tooltiptext">AJAX</span>
+                        </div>
+                        <div class="tooltip"> 
+                            <img src=./images/icons8-json-64.png><span class="tooltiptext">JSON</span>
+                        </div>
+                    </div>
+                </div><br><br>
+                <div class="service">
+                    <h3>E-COMMERCE</h3>
+                    <p align="justify">
+                    Réalisation d'interfaces utilisateur responsive avec une solution de gestion e-commerce.<br>
+                    Elaboration et mise en oeuvre des composants dans une application e-commerce</p>
+                </div>  
+            </div>   
+                <div class="service">  
+                    <h3>MON CV :</h3>
+                    <div class="container">
+                    <p>
+                        CV Short
+                        <a href="cv/CV_short.pdf"><img src="images\cv_short_img.png" width="200px"></a>
+                    </p>
+                    <p>
+                        CV Technique
+                        <a href="cv/cv_tech.pdf"><img src="images\cv_tech_img.png" width="200px"></a>
+                    </p>
+                    </div>
+                </div> 
+         
+                <!-- / service -->
+            <br>
+            <a href="#work" class="btn">Mes Projets</a>
+        
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">About Me</h2>
+           <p class="section__subtitle section__subtitle--about">Une Codeuse à Déchiffrer</p>
+           
+           <div class="about-me__body">
+               <p align="justify">&emsp;&emsp;J'ai étudié avec passion, grammaire et langues étrangères pendant plusieurs années. Cela m'a permit de consolider une aisance relationnelle et un attrait pour les différentes cultures. En outre, cela m'a inculqué la minutie, la patience et la rigueur dans l'apprentissage.<br>Ces qualités me permettent aujourd'hui d'être efficace et organisée dans mon travail.</p>
+               <p> Aussi, j'aime créer, coder, optimiser et m'améliorer toujours plus en affutant mes connaissances et mes compétences.<br>Je suis du reste d'un naturel curieux, optimiste et persévérant. J'apprécie le fait de travailler en autonomie, tout comme l'émulation et la complémentarité du travail en équipe.</p>
+           </div>
+           
+           <img src="images/depleinpied.jpeg" alt="Photo de plein pied" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">Mes Projets</h2>
+            <p class="section__subtitle section__subtitle--work">Mes réalisations professionnelles ou personnelles</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="images\Schleber Fabrice.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:artisanduvirtuel@gmail.com" class="footer__link">artisanduvirtuel@gmail.com</a>
+            <ul class="social-list">
+                <!-- <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>-->
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/AvaKissara">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
